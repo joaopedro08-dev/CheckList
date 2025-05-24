@@ -33,7 +33,6 @@
 
 - `/frontend`: Código da interface desenvolvida em React, utilizando Bootstrap e Axios.
 - `/backend`: API RESTful construída com Spring Boot e Java 21.
-- `/sql`: Documentação adicional, como scripts SQL.
 
 ## 📚 Aprendizados e Desafios
 
