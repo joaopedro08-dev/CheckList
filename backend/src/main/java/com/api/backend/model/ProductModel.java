@@ -8,12 +8,14 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
+// Table in PostgreSQL
 @Entity
 @Table(name = "products")
 @Getter
 @Setter
 public class ProductModel {
 
+    // Columns
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_product;

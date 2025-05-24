@@ -12,6 +12,8 @@ import com.api.backend.repository.ProductRepository;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+// All logic in the service stops in the controller
+
 @Service
 public class ProductService {
 

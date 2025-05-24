@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductList from './product/ProductList'
 import ProductForm from './product/ProductForm';

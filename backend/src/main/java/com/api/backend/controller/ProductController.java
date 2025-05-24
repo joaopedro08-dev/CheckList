@@ -19,7 +19,7 @@ import java.time.format.DateTimeFormatter;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping("/api/products") // Endpoint fixed
 public class ProductController {
 
     @Autowired
