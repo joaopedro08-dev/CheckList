@@ -1,2 +1,1 @@
-# CheckList
-
+# CheckList - Projeto Full-Stack
