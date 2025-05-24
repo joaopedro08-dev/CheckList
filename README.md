@@ -9,7 +9,7 @@
 
 ## 📌 Aboute the Project
 
-**CheckList** is a **Full-Stack** application developed as a practical project for the **Final Course Work (TCC)** of the **Systems Analysis and Development** program at **SENAI**. Started on **May 23, 2025** by **João Pedro Dala Dea Mello**,the project aims to apply knowledge in front-end, back-end, and database technologies to create a functional application for managing product lists. Designed for users who want to organize purchases or inventories, the application allows for registering, listing, editing, and deleting products in a simple and intuitive way, demonstrating the integration of modern technologies.
+**CheckList** is a **Full-Stack** application developed as a practical project for the **Final Course Work (TCC)** of the **Systems Analysis and Development** program at **SENAI**. Started on **May 23, 2025** by **João Pedro Dala Dea Mello**, the project aims to apply knowledge in front-end, back-end, and database technologies to create a functional application for managing product lists. Designed for users who want to organize purchases or inventories, the application allows for registering, listing, editing, and deleting products in a simple and intuitive way, demonstrating the integration of modern technologies.
 
 ![CheckList Screenshot](img/img-checklist.png)
 
