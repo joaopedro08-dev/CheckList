@@ -46,4 +46,4 @@
 **João Pedro Dala Dea Mello**  
 Estudante de Análise e Desenvolvimento de Sistemas - SENAI  
 - GitHub: [github.com/joaopedro08-dev](https://github.com/joaopedro08-dev)  
-- Email: joaopedrodaladeamello098@email.com
+- Email: joaopedrodaladeamello098@gmail.com
