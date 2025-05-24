@@ -1,105 +1,118 @@
-# ✅ CheckList - Projeto Full-Stack
+# ✅ CheckList - Full-Stack
+<div align="left">
 
-## 📌 Sobre o Projeto
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+</div>
 
-**CheckList** é uma aplicação **Full-Stack** desenvolvida como projeto prático para o **Trabalho de Conclusão de Curso (TCC)** do curso de **Análise e Desenvolvimento de Sistemas** no **SENAI**. Iniciado em **23/05/2025** por **João Pedro Dala Dea Mello**, o projeto tem como objetivo aplicar conhecimentos em front-end, back-end e banco de dados, criando uma aplicação funcional para gerenciamento de listas de produtos. Voltada para usuários que buscam organizar compras ou estoques, a aplicação permite o cadastro, listagem, edição e exclusão de produtos de forma simples e intuitiva, demonstrando a integração entre tecnologias modernas.
+## 📌 Aboute the Project
 
-![Screenshot do CheckList](img/img-checklist.png)
+**CheckList** is a **Full-Stack** application developed as a practical project for the **Final Course Work (TCC)** of the **Systems Analysis and Development** program at **SENAI**. Started on **May 23, 2025** by **João Pedro Dala Dea Mello**,the project aims to apply knowledge in front-end, back-end, and database technologies to create a functional application for managing product lists. Designed for users who want to organize purchases or inventories, the application allows for registering, listing, editing, and deleting products in a simple and intuitive way, demonstrating the integration of modern technologies.
 
-## 📋 Funcionalidades
+![CheckList Screenshot](img/img-checklist.png)
 
-1. **Cadastro de Produtos**: Permite adicionar produtos com nome, quantidade e categoria, facilitando a organização de listas personalizadas.
-2. **Listagem de Produtos**: Exibe todos os produtos em uma interface clara e organizada, com opções de ordenação.
-3. **Edição de Produtos**: Oferece a possibilidade de atualizar informações de produtos já cadastrados, garantindo flexibilidade.
-4. **Exclusão de Produtos**: Permite remover produtos desnecessários com segurança.
-5. **Interface Responsiva**: Garante usabilidade em dispositivos móveis e desktops, adaptando-se a diferentes tamanhos de tela.
+## 📋 Features
 
-## 🛠️ Tecnologias Utilizadas
+1. **Product Registration**: Allows users to add products with name, quantity, and category, making it easier to organize customized lists.
+2. **Product Listing**: Displays all products in a clean and organized interface with sorting options.
+3. **Product Editing**: Enables users to update existing product information, providing flexibility.
+4. **Product Deletion:**: Allows for safely removing unnecessary products.
+5. **Responsive Interface**: Ensures usability on both mobile devices and desktops, adapting to different screen sizes.
 
-| **Camada**     | **Tecnologia**      | **Versão** | **Descrição**                                      |
-|----------------|---------------------|------------|---------------------------------------------------|
-| Front-End      | React               | 18.x       | Biblioteca JavaScript para interfaces dinâmicas   |
-| Front-End      | Bootstrap           | 5.x        | Framework CSS para estilização responsiva        |
-| Front-End      | Axios               | 1.x        | Cliente HTTP para comunicação com a API          |
-| Back-End       | Spring Boot         | 3.x        | Framework Java para APIs RESTful                 |
-| Back-End       | DTOs                | -          | Objetos de transferência para padronizar dados   |
-| Banco de Dados | PostgreSQL          | 16.x       | Banco de dados relacional robusto e escalável    |
+## 🛠️ Technologies Used
 
-### 🌐 Linguagens
+| **Layer**      | **Technology** | **Version** | **Description**                                    |
+| -------------- | -------------- | ----------- | -------------------------------------------------- |
+| Front-End      | React          | 19.x        | JavaScript library for building dynamic interfaces |
+| Front-End      | Bootstrap      | 5.x         | CSS framework for responsive design                |
+| Front-End      | Axios          | 1.x         | HTTP client for API communication                  |
+| Back-End       | Spring Boot    | 3.x         | Java framework for building RESTful APIs           |
+| Back-End       | DTOs           | -           | Data Transfer Objects to standardize data          |
+| Banco de Dados | PostgreSQL     | 17.x        | Robust and scalable relational database            |
+
+### 🌐 Languages
 - HTML
 - CSS
 - JavaScript
 - Java 21
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
-- `/frontend`: Interface desenvolvida em React, organizada em componentes, páginas e serviços para chamadas à API, com Bootstrap para estilização e Axios para comunicação com o back-end.
-- `/backend`: API RESTful construída com Spring Boot, seguindo uma arquitetura em camadas composta por:
-  - **Model**: Define as entidades do banco de dados
-  - **Repository**: Interface para acesso e manipulação de dados no PostgreSQL.
-  - **Service**: Contém a lógica de negócios, intermediando controllers e repositórios.
-  - **Controller**: Gerencia requisições HTTP e respostas da API.
-  - **DTO**: Objetos de transferência de dados para padronizar a comunicação entre front-end e back-end.
+- `/frontend`: Interface developed with React, organized into components, pages, and services for API calls, styled with Bootstrap and integrated with Axios.
 
-## 🚀 Instalação e Execução
+- `/backend`: RESTful API built with Spring Boot, following a layered architecture consisting of:
+  - **Model**: Defines the database entities.
+  - **Repository**: Interface for accessing and manipulating PostgreSQL data.
+  - **Service**: Contains business logic between controllers and repositories.
+  - **Controller**: Manages HTTP requests and API responses.
+  - **DTO**: Data Transfer Objects to standardize communication between front-end and back-end.
 
-### ✅ Pré-requisitos
+## 🚀 Installation & Execution
 
-Antes de iniciar, certifique-se de que você tenha os seguintes softwares instalados na sua máquina:
+### ✅ Prerequisites
 
-- [Node.js](https://nodejs.org) (versão recomendada: LTS)
+Make sure the following tools are installed on your machine:
+
+- [Node.js](https://nodejs.org) — (recommended version: LTS)
 - [Java 21+](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 - [PostgreSQL](https://www.postgresql.org)
-- [Maven](https://maven.apache.org) (para build do back-end)
-- [Visual Studio Code](https://code.visualstudio.com/) (ou outra IDE de sua preferência, como IntelliJ, Eclipse ou NetBeans)
+- [Maven](https://maven.apache.org) — (used for back-end build)
+- [Visual Studio Code](https://code.visualstudio.com/) or any other IDE (IntelliJ, Eclipse, NetBeans)
+
+> 💡 **Tip**: After ensuring prerequisites, clone or download this repository to your machine and follow the steps below.
 
 ---
 
-### 🗄️ Banco de Dados (PostgreSQL)
+### 🗄️ Database (PostgreSQL)
 
-#### 1. Criar o Banco de Dados
+#### 1. Create the Database
 
-- **Via pgAdmin 4**:
-  1. Abra o **pgAdmin 4** e clique em **Servers** no menu lateral.
-  2. Insira a senha do servidor, se solicitada.
-  3. Clique com o botão direito em **Databases** (ou dê dois cliques no trackpad) e selecione **Create > Database**.
-  4. Nomeie o banco como `checklist` (recomendado) e clique em **Save**.
-     ![Criação do Banco](img/postgresql1.png)
+- **Using pgAdmin 4**:
+  1. Open **pgAdmin 4** and click on **Servers** in the side menu.
+  2. Enter the server password if prompted.
+  3. Right-click **Databases**  and select **Create > Database**.
+  4. Name the database `checklist` (recommended) and click **Save**.
+     ![Database Creation](img/postgresql1.png)
 
-- **Via Query Tool**:
-  1. No pgAdmin 4, clique em **Tools** no menu superior e selecione **Query Tool**.
+- **Using Query Tool**:
+  1. In pgAdmin 4, go to **Tools > Query Tool**.
      ![Abertura do Query Tool](img/postgresql2.png)
-  2. Execute o comando SQL abaixo para criar o banco:
+  2. Execute the following SQL command:
      ```sql
      CREATE DATABASE checklist;
 ---
 
-#### 2. Criar a Tabela products
-Após criar o banco checklist, crie a tabela products com as colunas necessárias para armazenar os dados dos produtos.
+#### 2. Create the products Table
+After creating the ``checklist`` or another database, create the ``products`` table with the following fields:
 
-- **Via pgAdmin 4**:
+- **Using pgAdmin 4**:
 
-1. No menu lateral, expanda o banco checklist e clique com o botão direito em Schemas > public > Tables.
+1. Expand the ``checklist`` database > Schemas > public > Tables.
 
-2. Selecione Create > Table e nomeie a tabela como products.
+2. Right-click and select **Create > Table**, name it ``products``.
 
-3. Adicione as seguintes colunas:
+3. Add the columns::
 
-- `id_product`: Tipo `bigint`, marque como **Primary Key** e configure como **Identity(By Default)** para auto-incremento.
+| Column           | Type                     | Properties                         |
+|------------------|--------------------------|-------------------------------------|
+| `id_product`     | `bigint`                 | Primary Key, Identity (By Default) |
+| `name`           | `character varying(200)` | Product name                        |
+| `quantity`       | `integer`                | Quantity                            |
+| `category`       | `character varying(50)`  | Product category                    |
+| `purchased`      | `character varying(30)`  | Whether the product was purchased   |
+| `register_timer` | `character varying(25)`  | Registration timestamp              |
 
-- `name`: Tipo **character varying(200)**, para o nome do produto.
-- `quantity`: Tipo `integer`, para a quantidade.
-- `category`: Tipo `character varying(50)`, para a categoria do produto.
-- `purchased`: Tipo `character varying(30)`, para indicar se o produto foi comprado.
-- `register_timer`: Tipo `character varying(25)`, para o timestamp de registro.
 
-![create-table](img/postgresql3.png)
+![Create Table](img/postgresql3.png)
 
-1. Clique em Save para criar a tabela
+1. Click **Save** for create the table
 
-- **Via Query Tool**: 
+- **Using Query Tool**: 
   
-  Execute o comando SQL abaixo no Query Tool para criar a tabela **products**:
+  Run the SQL command below in the Query Tool to create the table
+  **products**:
 
     ```sql
     CREATE TABLE products(
@@ -110,53 +123,55 @@ Após criar o banco checklist, crie a tabela products com as colunas necessária
     purchased VARCHAR(30), 
     register_timer VARCHAR(25)
     );
-- **Nota**: O campo id_product usa **GENERATED BY DEFAULT AS IDENTITY** para garantir auto-incremento, equivalente à configuração de identity no pgAdmin.
+> ℹ️ **Note**: The field ``id_product`` uses ``GENERATED BY DEFAULT AS IDENTITY`` for auto-increment behavior.
 ---
 
-#### 3. Verificar o Servidor do Banco de Dados
+#### 3. Verify Database Server Status
 
-- Certifique-se de que o servidor PostgreSQL está ativo:
+- Make sure PostgreSQL is running:
 
-1. No pgAdmin 4, verifique se o status do servidor está **verde** (conectado).
-2. Caso não esteja, inicie o servidor via linha de comando ou ferramenta de gerenciamento (ex.: ``pg_ctl start`` no Linux/Windows ou serviços no sistema operacional).
-3. Insira a senha do usuário PostgreSQL, se solicitada.
+1. In pgAdmin 4, check if the server status is **green** (connected).
+2. If not, start the server via command line (``pg_ctl start``) or system services.
+3. Enter the PostgreSQL user password if prompted.
 ---
 ### 🔧 Backend (Spring Boot)
 
-1. Acesse a pasta do back-end
-`cd backend`
-
-2. Configure o arquivo ``application.properties`` com as credenciais do seu banco PostgreSQL.
+1. Go to the back-end folder:
+   ```bash
+   cd backend
+2. Configure the``application.properties`` file with your PostgreSQL credentials.
 
    ![Configuration](img/configuration.png)
 
-3. Execute o projeto com Maven
-`mvn spring-boot:run`
-
+3. Run the project with Maven:
+   ```bash
+   mvn spring-boot:run
 ---
 
 ### 💻 Frontend (React)
 
-1. Acesse a pasta do front-end: 
-`cd frontend`
+1. Go to the front-end folder:
+   ```bash
+   cd frontend
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the application:
+   ```bash
+   npm run dev
+The app will be available at `http://localhost:5173`
+---
 
-2. Instale as dependências:
-`npm install`
+## 📚 Learnings and Challenges
 
-3. Inicie a aplicação:
-`npm run dev`
-A aplicação estará disponível em `http://localhost:5173`
+- **Front-End & Back-End Integration**: Configuring HTTP calls with Axios and handling API responses.
+- **Database Management**: Creating and manipulating PostgreSQL tables to support app features.
+- **Challenges**: Setting up the environment, integrating Spring Boot with PostgreSQL, and ensuring responsive design with Bootstrap.
+---
 
-## 📚 Aprendizados e Desafios
-
-- **Integração Front-End e Back-End**: Configuração de chamadas HTTP com Axios e tratamento de respostas da API.
-- **Gerenciamento de Banco de Dados**: Criação e manipulação de tabelas no PostgreSQL para suportar as funcionalidades do projeto.
-- **Desafios**: Configuração inicial do ambiente, como integração entre Spring Boot e PostgreSQL, e garantir responsividade com Bootstrap.
-
-
-## 🧑‍💻 Autor
+## 🧑‍💻 Author
 
 **João Pedro Dala Dea Mello**  
-Estudante de Análise e Desenvolvimento de Sistemas - SENAI  
+Student of Systems Analysis and Development — SENAI
 - GitHub: [github.com/joaopedro08-dev](https://github.com/joaopedro08-dev)  
 - Email: joaopedrodaladeamello098@gmail.com
