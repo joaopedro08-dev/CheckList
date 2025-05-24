@@ -33,7 +33,6 @@
 
 ## 📂 Estrutura do Projeto
 
-<<<<<<< HEAD
 - `/frontend`: Interface desenvolvida em React, organizada em componentes, páginas e serviços para chamadas à API, com Bootstrap para estilização e Axios para comunicação com o back-end.
 - `/backend`: API RESTful construída com Spring Boot, seguindo uma arquitetura em camadas composta por:
   - **Model**: Define as entidades do banco de dados
@@ -147,10 +146,6 @@ Após criar o banco checklist, crie a tabela products com as colunas necessária
 3. Inicie a aplicação:
 `npm run dev`
 A aplicação estará disponível em `http://localhost:5173`
-=======
-- `/frontend`: Código da interface desenvolvida em React, utilizando Bootstrap e Axios.
-- `/backend`: API RESTful construída com Spring Boot e Java 21.
->>>>>>> 003694ef81f7f6287651e30f8186c1dd645a0ada
 
 ## 📚 Aprendizados e Desafios
 
