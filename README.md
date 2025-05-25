@@ -107,7 +107,7 @@ After creating the ``checklist`` or another database, create the ``products`` ta
 
 ![Create Table](img/postgresql3.png)
 
-1. Click **Save** for create the table
+4. Click **Save** for create the table
 
 - **Using Query Tool**: 
   
