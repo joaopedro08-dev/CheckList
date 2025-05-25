@@ -146,6 +146,7 @@ After creating the ``checklist`` or another database, create the ``products`` ta
 3. Run the project with Maven:
    ```bash
    mvn spring-boot:run
+The app will be available at `http://localhost:8080`
 ---
 
 ### 💻 Frontend (React)
