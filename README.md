@@ -149,6 +149,37 @@ After creating the ``checklist`` or another database, create the ``products`` ta
 The app will be available at `http://localhost:8080`
 ---
 
+#### 🧪 API Testing
+
+If you want to verify that the API and the database are working correctly, you can use HTTP request tools to test the available endpoints.
+
+**Recommended testing platforms:**
+1. [Postman](https://www.postman.com/)
+2. [Insomnia](https://insomnia.rest/)
+3. [Thunder Client](https://www.thunderclient.com/) (Visual Studio Code extension)
+
+---
+
+#### 🔗 Available Endpoints
+
+- **GET** `/api/products/list`  
+  Returns a list of all products.
+
+- **GET** `/api/products/search/{id}`  
+  Returns data for a specific product by its ID.
+
+- **POST** `/api/products/register`  
+  Registers a new product (send JSON payload in the request body).
+
+- **PUT** `/api/products/update/{id}`  
+  Updates product information for the given ID.
+
+- **DELETE** `/api/products/delete/{id}`  
+  Deletes a product by its ID.
+
+> ⚠️ Make sure to replace `{id}` with the actual product ID number.
+---
+
 ### 💻 Frontend (React)
 
 1. Go to the front-end folder:
@@ -157,7 +188,10 @@ The app will be available at `http://localhost:8080`
 2. Install dependencies:
    ```bash
    npm install
-3. Start the application:
+3. Make sure the following libraries are included in your package.json or install them manually if needed:
+   ```bash
+   npm install react-router-dom axios bootstrap
+4. Start the application:
    ```bash
    npm run dev
 The app will be available at `http://localhost:5173`
