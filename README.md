@@ -206,7 +206,6 @@ The app will be available at `http://localhost:5173`
 
 ## 🧑‍💻 Author
 
-**João Pedro Dala Dea Mello**  
-Student of Systems Analysis and Development — SENAI
+**João Pedro Dala Dea Mello**
 - GitHub: [github.com/joaopedro08-dev](https://github.com/joaopedro08-dev)  
 - Email: joaopedrodaladeamello098@gmail.com
