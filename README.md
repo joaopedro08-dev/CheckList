@@ -197,13 +197,6 @@ If you want to verify that the API and the database are working correctly, you c
 The app will be available at `http://localhost:5173`
 ---
 
-## 📚 Learnings and Challenges
-
-- **Front-End & Back-End Integration**: Configuring HTTP calls with Axios and handling API responses.
-- **Database Management**: Creating and manipulating PostgreSQL tables to support app features.
-- **Challenges**: Setting up the environment, integrating Spring Boot with PostgreSQL, and ensuring responsive design with Bootstrap.
----
-
 ## 🧑‍💻 Author
 
 **João Pedro Dala Dea Mello**
